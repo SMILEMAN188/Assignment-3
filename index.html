@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font sora -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+        *sora{
+              font-family: "Sora", serif;
+            }
+        </style>
+    <!-- Font ADLaM Display -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+        .adlam{
+            font-family: "ADLaM Display", serif;
+        }
+        </style>
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7b2921b6cc.js" crossorigin="anonymous"></script>
+    <!-- Title -->
+    <title>Browse 4 Pets</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/logo-header.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+      <nav class=" flex justify-around items-center pt-6 pb-7 bg-[#FFF9F4] w-full">
+        <div class="flex gap-3 items-center">
+          <img src="assets/logo-header.png" alt="Logo-header">
+          <p class="md:hidden lg:block h-8  text-2xl font-normal">Browse<span class="text-[#FFDC26] ">4</span>Pets</p>
+        </div>
+        <div class="flex gap-8 items-center ">
+          <p class="md:hidden lg:block  h-8  text-xl font-normal">Find a pet</p>
+          <p class="md:hidden lg:block  h-8  text-xl font-normal ">Breeds</p>
+          <p class="md:hidden lg:block  h-8  text-xl font-normal">Contact us</p>
+        </div>
+        <div class="flex items-center gap-4">
+          <i class="fa-solid fa-bell hidden lg:block "></i>
+          <i class="fa-solid fa-magnifying-glass hidden lg:block "></i>
+          <button class="btn btn-outline btn-warning hidden lg:block">Login</button>
+          <button class="btn btn-warning hidden lg:block">Register</button>
+          <i class="fa-solid fa-bars md:block lg:hidden "></i>
+
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
