@@ -41,28 +41,86 @@
     <link rel="shortcut icon" href="assets/logo-header.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-      <nav class=" flex justify-around items-center pt-6 pb-7 bg-[#FFF9F4] w-full">
+  <header>
+    <!-- Navbar -->
+    <nav class="flex justify-around items-center pt-6 pb-7 bg-[#FFF9F4] w-full mb-4">
         <div class="flex gap-3 items-center">
-          <img src="assets/logo-header.png" alt="Logo-header">
-          <p class="md:hidden lg:block h-8  text-2xl font-normal">Browse<span class="text-[#FFDC26] ">4</span>Pets</p>
+            <img src="assets/logo-header.png" alt="Logo-header">
+            <p class="hidden lg:block h-8 text-2xl font-normal">
+                Browse<span class="text-[#FFDC26]">4</span>Pets
+            </p>
         </div>
-        <div class="flex gap-8 items-center ">
-          <p class="md:hidden lg:block  h-8  text-xl font-normal">Find a pet</p>
-          <p class="md:hidden lg:block  h-8  text-xl font-normal ">Breeds</p>
-          <p class="md:hidden lg:block  h-8  text-xl font-normal">Contact us</p>
+        <div class="hidden lg:flex gap-8 items-center">
+            <p class="h-8 text-xl font-normal">Find a pet</p>
+            <p class="h-8 text-xl font-normal">Breeds</p>
+            <p class="h-8 text-xl font-normal">Contact us</p>
         </div>
         <div class="flex items-center gap-4">
-          <i class="fa-solid fa-bell hidden lg:block "></i>
-          <i class="fa-solid fa-magnifying-glass hidden lg:block "></i>
-          <button class="btn btn-outline btn-warning hidden lg:block">Login</button>
-          <button class="btn btn-warning hidden lg:block">Register</button>
-          <i class="fa-solid fa-bars md:block lg:hidden "></i>
-
+            <i class="fa-solid fa-bell hidden lg:block"></i>
+            <i class="fa-solid fa-magnifying-glass hidden lg:block"></i>
+            <button class="btn btn-outline btn-warning hidden lg:block">Login</button>
+            <button class="btn btn-warning hidden lg:block">Register</button>
+            <i class="fa-solid fa-bars block lg:hidden"></i>
         </div>
-      </nav>
-    </header>
-    <main></main>
+    </nav>
+  </header>
+  <main class="mx-3 lg:mx-36">
+<!-- Banner -->
+    <section class="flex flex-col relative mb-20 ">
+      <div class=" lg:absolute top-0 left-0 z-10 align-left ">
+        <h1 class="adlam font-normal text-6xl pb-3">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h1>
+        <p class="text-xl pb-3">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+        <button class="btn btn-warning absolute ">Find a pet</button>
+      </div>
+      <div class="relative" >
+        <img src="assets/cat-big.png" alt="">
+      </div>
+    </section>
+
+    <!-- Browse By Categories -->
+    <section>
+      <h1 class="adlam text-4xl align-left mb-12">Browse By Categories</h1>
+      <div class="grid grid-cols-2 items-center justify-center gap-4 md:grid-cols-3  xl:grid-cols-6">
+        
+      <div class="bg-[#F9DF8A] rounded-lg py-8 px-12 text-center">
+        <img class="avatar w-24 rounded-full bg-[#ffffff] p-3" src="assets/dog-cartoon.png" alt="Dog">
+        <h3 class="adlam text-xl">Dog</h3>
+        <p class=" text-base">3 items</p>
+      </div>
+
+      <div class="bg-[#F9DF8A] rounded-lg py-8 px-12 text-center">
+        <img class="avatar w-24 rounded-full bg-[#ffffff] p-3 " src="assets/fish-cartoon.png" alt="Fish">
+        <h3 class="adlam text-xl">Fish</h3>
+        <p class="text-base">3 items</p>
+      </div>
+
+      <div class="bg-[#F9DF8A] rounded-lg py-8 px-12 text-center">
+        <img class="avatar w-24 rounded-full bg-[#ffffff] p-3 " src="assets/cat-cartoon.png" alt="Dog">
+        <h3 class="adlam text-xl">Cat</h3>
+        <p class="text-base">3 items</p>
+      </div>
+
+      <div class="bg-[#F9DF8A] rounded-lg py-8 px-12 text-center">
+        <img class="avatar w-24 rounded-full bg-[#ffffff] p-3 " src="assets/bird-cartoon.png" alt="Dog">
+        <h3 class="adlam text-xl">Birds</h3>
+        <p class="text-base">3 items</p>
+      </div>
+
+      <div class="bg-[#F9DF8A] rounded-lg py-8 px-12 text-center">
+        <img class="avatar w-24 rounded-full bg-[#ffffff] p-3 " src="assets/mouse-cartoon.png" alt="Dog">
+        <h3 class="adlam text-xl whitespace-nowrap">Small pet</h3>
+        <p class="text-base">3 items</p>
+      </div>
+
+      <div class="bg-[#F9DF8A] rounded-lg py-8 px-12 text-center">
+        <img class="avatar w-24 rounded-full bg-[#ffffff] p-3 " src="assets/rabbit-cartoon.png" alt="Dog">
+        <h3 class="adlam text-xl  ">Rabbit</h3>
+        <p class="text-base">3 items</p>
+      </div>
+    </div>
+    </section>
+
+  </main>
     <footer></footer>
 </body>
 </html>
