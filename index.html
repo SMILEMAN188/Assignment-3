@@ -67,12 +67,12 @@
   <main>
 <!-- Banner -->
     <section class="flex flex-col relative mb-20 mx-3 lg:mx-36 ">
-      <div class=" lg:absolute top-0 left-0 z-10 align-left ">
+      <div class="lg:absolute top-0 left-0 z-10 align-left ">
         <h1 class="adlam font-normal text-6xl pb-3">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h1>
         <p class="text-xl pb-3">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
         <button class="btn btn-warning absolute ">Find a pet</button>
       </div>
-      <div class="relative" >
+      <div class="relative animate-pulse" >
         <img src="assets/cat-big.png" alt="">
       </div>
     </section>
@@ -234,12 +234,13 @@
     </section>
 
     <!-- Discount -->
-    <section class="mx-3 mb-20 lg:mx-36">
+    <section class=" mx-3 mb-auto lg:mx-36">
       <h1 class="adlam text-4xl pb-5 lg:pt-12">Everyday low Price</h1>
 
       <div class="flex flex-col gap-6 lg:flex-row w-full mx-auto">
         <!-- card 1 -->
-        <div class="flex flex-col relative rounded-lg bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] lg:flex-row w-full">
+        <div class="flex flex-col items-start relative rounded-lg bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] h-[full] w-[full] lg:flex-row lg:w-[784px] lg:h-[480px] lg:items-center">
+
           <div class="gap-5 mt-4 ml-4 lg:">
             <p class="text-xl">Under Price</p>
             <h1 class="adlam">
@@ -256,8 +257,8 @@
            </div>
         </div>
         <!-- card 2 -->
-         <div class="flex flex-col relative rounded-lg bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] lg:w-1/2">
-          <div class="pt-12 pl-6">
+         <div class="flex flex-col relative rounded-lg bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] h-[full] w-[full] lg:w-[512px] lg:h-[480px]">
+          <div class="pt-3 pl-2">
             <h1 class="adlam text-3xl">T-Shirt for Dogs</h1>
             <h1 class="adlam text-6xl text-[#FFDC26]">$7.99</h1>
           </div>
@@ -272,12 +273,8 @@
       </div>
     </section>
 
- </main>
- <footer class="bg-[#FFDC26] bg-opacity-50 relative">
-  <div class="mx-3 pb-9 lg:mx-36">
-    
-  <!-- News -->
-  <section class="">
+      <!-- News -->
+  <section class="relative translate-y-1/2 z-10 -mt-52 mx-3 mb-auto lg:mx-36 ">
     <div class=" bg-[#FFF9F4] rounded-lg flex flex-col mx-auto my-auto lg:flex-row lg:gap-28 gap-10 p-6 justify-center items-center">
 
       <div class="flex justify-center lg:justify-start">
@@ -300,10 +297,16 @@
       </div>
     </div>
   </section>
-   
 
-    <!-- Footer -->
-    <div class="flex flex-col items-start mt-[70px] gap-5 lg:flex-row lg:items-end justify-between">
+
+ </main>
+ 
+ <footer class="bg-[#FFDC26] flex flex-col bg-opacity-50 relative h-[752px] lg:h-[654px]">
+
+<!-- Footer -->
+  <div class="mt-auto mx-3 pb-9 lg:mx-36">
+    
+    <div class="flex flex-col items-start gap-5  lg:flex-row lg:items-end justify-between">
       <div class="flex flex-col gap-7">
         <div class="flex flex-row items-center gap-3">
           <img src="assets/logo-footer.png" alt="">
